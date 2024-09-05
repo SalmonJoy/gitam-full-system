@@ -1,0 +1,23 @@
+.fixed-width-table {
+    table-layout: fixed; /* Ensures the table layout is fixed */
+    width: 50%; /* Optional: Ensures the table fills the container */
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+}
+.col1 {
+    width: 200px; /* Fixed width for column 1 */
+    padding: auto;
+}
+
+.col2 {
+    width: 300px; /* Fixed width for column 2 */
+    padding: auto;
+}
+
+.top-filter{
+    position: absolute;
+    top: 50px;
+    left: 100px
+}
